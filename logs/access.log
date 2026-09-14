@@ -1,0 +1,7 @@
+172.21.0.1 - - [14/Sep/2026:20:59:15 +0000] "GET /health HTTP/1.1" 200 3 "-" "curl/8.21.0"
+172.21.0.1 - - [14/Sep/2026:20:59:17 +0000] "GET / HTTP/1.1" 200 1564 "-" "curl/8.21.0"
+172.21.0.1 - - [14/Sep/2026:21:06:14 +0000] "GET / HTTP/1.1" 200 1564 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.137.0 Chrome/148.0.7778.280 Electron/42.10.0 Safari/537.36"
+172.21.0.1 - - [14/Sep/2026:21:06:14 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.137.0 Chrome/148.0.7778.280 Electron/42.10.0 Safari/537.36"
+172.21.0.1 - - [14/Sep/2026:21:06:39 +0000] "GET / HTTP/1.1" 200 1564 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+172.21.0.1 - - [14/Sep/2026:21:06:39 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+172.21.0.1 - - [14/Sep/2026:21:06:52 +0000] "GET /health HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"

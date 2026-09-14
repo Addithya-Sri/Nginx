@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nginx Local Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .info {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🚀 Nginx Local Setup</h1>
+
+        <p>Welcome! Your nginx server is running successfully.</p>
+
+        <div class="info">
+            <h3>Server Information:</h3>
+            <ul>
+                <li><strong>Status:</strong> Running</li>
+                <li><strong>Port:</strong> 8080</li>
+                <li><strong>Access URL:</strong> http://localhost:8080</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h3>Quick Test:</h3>
+            <p>
+                Health check endpoint:
+                <a href="/health" style="color: #ffd700;">/health</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
